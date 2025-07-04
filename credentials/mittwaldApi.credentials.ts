@@ -31,7 +31,7 @@ export class mittwaldApi implements ICredentialType {
     test: ICredentialTestRequest = {
         request: {
             // Basis-URL für alle Testrequests
-            baseURL: 'https://api.mittwald.de/v2',
+            baseURL: 'https://api.mittwald.de',
             // Einfacher Endpoint, der bei gültigem Token die User-Daten zurückgibt
             url: '/users/self',
         },

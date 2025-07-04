@@ -31,7 +31,7 @@ export class mittwald implements INodeType {
                 Accept: 'application/json',
                 'Content-Type': 'application/json',
             },
-            baseURL: 'https://api.mittwald.de/v2',
+            baseURL: 'https://api.mittwald.de',
         },
         properties: properties,
     };
