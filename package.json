@@ -1,6 +1,6 @@
 {
   "name": "@twiesing/n8n-nodes-mittwald",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "n8n node to connect with mittwald",
   "keywords": [
     "n8n-community-node-package"
@@ -34,7 +34,9 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [],
+    "credentials": [
+      "dist/credentials/mittwald.credentials.js"
+    ],
     "nodes": [
       "dist/nodes/mittwald/mittwald.node.js"
     ]
