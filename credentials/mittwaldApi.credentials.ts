@@ -30,7 +30,7 @@ export class mittwaldApi implements ICredentialType {
     test: ICredentialTestRequest = {
         request: {
             baseURL: 'https://api.mittwald.de',
-            url: '/v2/users/self',
+            url: '/v2/projects',
         },
     };
 }
