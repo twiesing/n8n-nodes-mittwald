@@ -6,7 +6,7 @@ const config: N8NPropertiesBuilderConfig = {};
 const parser = new N8NPropertiesBuilder(doc, config);
 const properties = parser.build();
 
-export class Mittwald implements INodeType {
+export class mittwald implements INodeType {
     description: INodeTypeDescription = {
         displayName: 'mittwald',
         name: 'mittwald',

@@ -5,9 +5,9 @@ import {
     INodeProperties,
 } from 'n8n-workflow';
 
-export class MittwaldApi implements ICredentialType {
+export class mittwaldApi implements ICredentialType {
     name = 'mittwaldApi';
-    displayName = 'Mittwald API';
+    displayName = 'mittwald API';
     documentationUrl = 'https://developer.mittwald.de/docs/v2/api/intro/';
     properties: INodeProperties[] = [
         {
