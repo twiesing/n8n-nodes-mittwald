@@ -23,17 +23,14 @@ export class mittwaldApi implements ICredentialType {
         type: 'generic',
         properties: {
             headers: {
-                // Das Token wird per X-Access-Token übergeben
                 'X-Access-Token': '={{$credentials.apiToken}}',
             },
         },
     };
     test: ICredentialTestRequest = {
         request: {
-            // Basis-URL für alle Testrequests
             baseURL: 'https://api.mittwald.de',
-            // Einfacher Endpoint, der bei gültigem Token die User-Daten zurückgibt
-            url: '/users/self',
+            url: '/v2/users/self',
         },
     };
 }
